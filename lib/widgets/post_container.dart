@@ -218,7 +218,7 @@ class _PostHeader extends StatelessWidget {
               isScrollControlled: true,
               builder: (BuildContext context) {
                 return Container(
-                  height: MediaQuery.of(context).size.height * 0.69,
+                  height: MediaQuery.of(context).size.height * 0.75,
                   decoration: const BoxDecoration(
                       color: Color.fromARGB(255, 37, 37, 37),
                       borderRadius: BorderRadius.only(
